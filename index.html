@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laberinto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Laberinto</h1>
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Pasos:</span>
+                    <span id="steps">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Tiempo:</span>
+                    <span id="time">0s</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Nivel:</span>
+                    <span id="level">1</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-container">
+            <canvas id="maze-canvas"></canvas>
+        </div>
+
+        <div class="controls">
+            <button id="reset-btn" class="btn">Reiniciar</button>
+            <button id="next-level-btn" class="btn" style="display: none;">Siguiente Nivel</button>
+        </div>
+
+        <div id="victory-message" class="victory-message" style="display: none;">
+            <h2>¡Felicidades!</h2>
+            <p>Has completado el nivel</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
