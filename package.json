@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Un juego interactivo de laberinto desarrollado con HTML5 Canvas, CSS3 y JavaScript vanilla. El jugador debe navegar a través de diferentes niveles de laberintos para alcanzar la meta, con contadores de pasos y tiempo.",
+  "main": "game.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.2.2"
+  }
+}
